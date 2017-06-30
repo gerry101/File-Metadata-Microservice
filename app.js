@@ -4,7 +4,7 @@ var bodyParser = require('body-parser'),
     cors = require('cors'),
     app = express();
 
-var upload = multer({ dest: '/public/uploads/' });
+var upload = multer({ dest: 'uploads/' });
 
 app.use(cors());
 app.set('view engine', 'ejs');
