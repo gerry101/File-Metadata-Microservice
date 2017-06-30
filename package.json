@@ -4,7 +4,8 @@
   "description": "When a user  submit something, he/she  will receive the file size in bytes within the JSON response",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Gerry Migwi",
   "license": "ISC",
