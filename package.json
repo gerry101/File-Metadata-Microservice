@@ -1,0 +1,18 @@
+{
+  "name": "file_metadata_microservice",
+  "version": "1.0.0",
+  "description": "When a user  submit something, he/she  will receive the file size in bytes within the JSON response",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerry Migwi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "multer": "^1.3.0"
+  }
+}
